@@ -28,37 +28,3 @@ def list_sum(N):
         somma += i        
     return somma
 
-
-def list_product(N):
-    prod = 1
-    for i in N:
-        prod *= i        
-    return prod
-
-def factorial(n):
-    fact=1
-    for i in range(1,n+1):
-        fact *= i
-    
-    return fact
-
-def list_square(element):
-    return element ** 2
-
-
-def MCD(a,b):
-    
-    result = (a+b)/(b*a)
-    return result
-
-def list_avg(N):
-    somma=0
-    for i in N:
-        somma += i
-        avg = somma/len(N)
-    return avg
-
-def combination(a,b):
-    
-   comb = division(factorial(a),product(factorial(b),factorial(difference(a,b))))
-   return comb
